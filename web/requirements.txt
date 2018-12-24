@@ -1,4 +1,0 @@
-Django == 2.0 # Django web framework
-gunicorn == 19.8 # WSGI HTTP server
-psycopg2 == 2.7 # Python-PostgreSQL Database Adapter
-redis == 2.10 # Redis database

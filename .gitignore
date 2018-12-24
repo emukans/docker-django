@@ -11,4 +11,4 @@ local_settings.py
 !.gitkeep
 .idea
 
-web/static/*
+app/static/*

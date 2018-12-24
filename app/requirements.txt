@@ -1,0 +1,4 @@
+Django ~= 2.1 # Django web framework
+gunicorn ~= 19.9 # WSGI HTTP server
+psycopg2 ~= 2.7 # Python-PostgreSQL Database Adapter
+redis ~= 3.0 # Redis database
