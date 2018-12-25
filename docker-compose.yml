@@ -11,6 +11,8 @@ services:
       - postgres
       - redis
     command: /usr/local/bin/gunicorn django_app.wsgi:application -w 2 -b :8000 --reload
+    expose:
+      - 8000
 
   nginx:
     build: nginx
