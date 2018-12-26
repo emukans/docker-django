@@ -17,6 +17,16 @@ Please follow the instructions to set up the Django project.
     ```
 2. Start docker-compose by running `docker-compose up -d`
 
+3. (Optional) Dump static files.
+    ```bash
+    docker-compose exec app python manage.py collectstatic --no-input
+    ```
+
+
+## Authors
+
+* **Eduards Mukans** - *Initial work* - [emukans](https://github.com/emukans)
+
 
 ## License
 
