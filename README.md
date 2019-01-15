@@ -22,6 +22,7 @@ Please follow the instructions to set up the Django project.
     docker-compose exec app python manage.py collectstatic --no-input
     ```
 
+4. Visit http://localhost:8080/
 
 ## Authors
 
